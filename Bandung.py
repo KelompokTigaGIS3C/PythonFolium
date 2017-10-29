@@ -23,9 +23,19 @@ folium.Marker([-6.886823, 107.615287], popup='<i> Universitas Komputer Indonesia
 folium.Marker([-6.926047, 107.774602], popup='<i> Universitas Padjadjaran </i>').add_to(m)
 folium.Marker([-6.928475, 107.779475], popup='<i> SMA Negeri Jatinangor</i>').add_to(m)
 folium.Marker([-6.931271, 107.717319], popup='<i> Universitas Islam Negeri Sunan Gn. Djati</i>').add_to(m)
- 
 folium.Marker([-6.903921, 107.607880], popup='<i> Universitas Islam Bandung </i>').add_to(m)
 folium.Marker([-6.905070, 107.608312], popup='<i> Universitas Pasundan Kampus 2</i>').add_to(m)
+folium.Marker([-6.863278, 107.579878], popup='<i> Joglo Sentir Klasikan</i>').add_to(m)
+folium.Marker([-6.858751, 107.591631], popup='<i> Asrama Mahasiswa PPG Pasca SM-3T UPI</i>').add_to(m)
+folium.Marker([-6.860728, 107.593522], popup='<i> Gedung FPBS UPI</i>').add_to(m)
+folium.Marker([-6.860542, 107.594960], popup='<i> The Heritage Kitchen & Gallery BDG</i>').add_to(m)
+folium.Marker([-6.859839, 107.594139], popup='<i> Museum Pendidikan Nasional UPI</i>').add_to(m)
+folium.Marker([-6.863264, 107.599117], popup='<i> SDN 204 CIDADAP</i>').add_to(m)
+folium.Marker([-6.861224, 107.600126], popup='<i> TravelDay Bandung</i>').add_to(m)
+folium.Marker([-6.885387, 107.580790], popup='<i> Gereja Jemaat Kristen Indonesia</i>').add_to(m)
+folium.Marker([-6.892407, 107.586461], popup='<i> Gereja Kristen Protestan Simalungun</i>').add_to(m)
+folium.Marker([-6.973988, 107.630407], popup='<i> Telkom University</i>').add_to(m)
+folium.Marker([-6.973314, 107.628806], popup='<i> Asrama Putri Telkom University</i>').add_to(m)
+folium.Marker([-6.971991, 107.631161], popup='<i> School of Creative Industries, Telkom University</i>').add_to(m)
 
-m
 
