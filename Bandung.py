@@ -91,6 +91,8 @@ folium.Marker([-6.915956, 107.596484], popup='<i> Rumah Sakit Kebon Jati</i>').a
 folium.Marker([-6.929213, 107.600677], popup='<i> Rumah Sakit Khusus Ibu dan Anak Kota Bandung</i>').add_to(m)
 folium.Marker([-6.898247, 107.615030], popup='<i> Bandung Medical Center</i>').add_to(m)
 folium.Marker([-6.906235, 107.598419], popup='<i> Rumah Sakit Melinda 2</i>').add_to(m)
+folium.Marker([-6.915239, 107.600329], popup='<i> Santosa Hospital Bandung Central</i>').add_to(m)
+folium.Marker([-6.906775, 107.603324], popup='<i> Melinda Hospital</i>').add_to(m)
 
 
 m
