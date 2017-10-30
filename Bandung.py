@@ -94,5 +94,15 @@ folium.Marker([-6.906235, 107.598419], popup='<i> Rumah Sakit Melinda 2</i>').ad
 folium.Marker([-6.915239, 107.600329], popup='<i> Santosa Hospital Bandung Central</i>').add_to(m)
 folium.Marker([-6.906775, 107.603324], popup='<i> Melinda Hospital</i>').add_to(m)
 
+folium.Marker([-6.887511, 107.581079], popup='<i> Rumah Sakit Gigi & Mulut Maranatha</i>').add_to(m)
+folium.Marker([-6.885414, 107.620386], popup='<i> RS Khusus Ginjal Ny. R.A. Habbie</i>').add_to(m)
+folium.Marker([-6.887511, 107.581079], popup='<i> Rumah Sakit Gigi & Mulut Maranatha</i>').add_to(m)
+folium.Marker([-6.894148, 107.613800], popup='<i> Saint Borromeus Hospital</i>').add_to(m)
+folium.Marker([-6.933643, 107.623193], popup='<i> Muhammadiyah Hospital of Bandung</i>').add_to(m)
+folium.Marker([-6.884101, 107.594896], popup='<i> RS Jiwa Hurip Waluya</i>').add_to(m)
+folium.Marker([-6.912367, 107.573167], popup='<i> Rumah Sakit Rajawali</i>').add_to(m)
+folium.Marker([-6.884286, 107.552698], popup='<i> RS Mitra Kasih</i>').add_to(m)
+folium.Marker([-6.879120, 107.550891], popup='<i> Cibabat Hospital</i>').add_to(m)
+folium.Marker([-6.906058, 107.613617], popup='<i> Limijati Women And Children Hospital</i>').add_to(m)
 
 m
