@@ -114,5 +114,7 @@ folium.Marker([-6.912367, 107.573167], popup='<i> Rumah Sakit Rajawali</i>').add
 folium.Marker([-6.884286, 107.552698], popup='<i> RS Mitra Kasih</i>').add_to(m)
 folium.Marker([-6.879120, 107.550891], popup='<i> Cibabat Hospital</i>').add_to(m)
 folium.Marker([-6.906058, 107.613617], popup='<i> Limijati Women And Children Hospital</i>').add_to(m)
+folium.Marker([-6.875609, 107.595739], popup='<i> St. Laurent Catholic Church</i>').add_to(m)
+
 
 m
