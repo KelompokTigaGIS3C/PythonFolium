@@ -83,5 +83,14 @@ folium.Marker([-6.891334, 107.603975], popup='<i> Sekolah Menengah Atas Pasundan
 folium.Marker([-6.873583, 107.616192], popup='<i> Sekolah Menengah Atas Negeri 19 Bandung</i>').add_to(m)
 folium.Marker([-6.904103, 107.622166], popup='<i> Sekolah Menengah Atas Negeri 20 Bandung</i>').add_to(m)
 
+folium.Marker([-6.907451, 107.606047], popup='<i> Kimia Farma Trading & Distribution Unit Bandung</i>').add_to(m)
+folium.Marker([-6.897701, 107.597576], popup='<i> Dr. Hasan Sadikin General Hospital</i>').add_to(m)
+folium.Marker([-6.895744, 107.598971], popup='<i> Rumah Sakit Pendidikan Universitas Padjajaran</i>').add_to(m)
+folium.Marker([-6.895748, 107.588856], popup='<i> Hermina Pasteur Hospital</i>').add_to(m)
+folium.Marker([-6.915956, 107.596484], popup='<i> Rumah Sakit Kebon Jati</i>').add_to(m)
+folium.Marker([-6.929213, 107.600677], popup='<i> Rumah Sakit Khusus Ibu dan Anak Kota Bandung</i>').add_to(m)
+folium.Marker([-6.898247, 107.615030], popup='<i> Bandung Medical Center</i>').add_to(m)
+folium.Marker([-6.906235, 107.598419], popup='<i> Rumah Sakit Melinda 2</i>').add_to(m)
+
 
 m
