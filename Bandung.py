@@ -62,6 +62,14 @@ folium.Marker([-6.879233, 107.620205], popup='<i> Daily Routine Coffe</i>').add_
 
 folium.Marker([-6.877100, 107.618113], popup='<i> Borma Dago</i>').add_to(m)
 folium.Marker([-6.877650, 107.616938], popup='<i> Lumbung Rasa</i>').add_to(m)
+folium.Marker([-6.868993, 107.533635], popup='<i> La Viva Cafe</i>').add_to(m)
+folium.Marker([-6.868803, 107.593699], popup='<i> Rumah Imoet</i>').add_to(m)
+folium.Marker([-6.871033, 107.593568], popup='<i> 18 Hrs cafe</i>').add_to(m)
+folium.Marker([-6.872607, 107.593217], popup='<i> Ludwick Cafe</i>').add_to(m)
+folium.Marker([-6.875744, 107.597420], popup='<i> Cafe Tungku</i>').add_to(m)
+folium.Marker([-6.854777, 107.589008], popup='<i> Warkop Modjok</i>').add_to(m)
+folium.Marker([-6.878945, 107.594161], popup='<i> Serasa Salad Bar</i>').add_to(m)
+folium.Marker([-6.879016, 107.594227], popup='<i> Absolut</i>').add_to(m)
 
 
 folium.Marker([-6.912781, 107.664919], popup='<i> SMA Negeri 23 Bandung</i>').add_to(m)
