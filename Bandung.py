@@ -116,29 +116,34 @@ folium.Marker([-6.879120, 107.550891], popup='<i> Cibabat Hospital</i>').add_to(
 folium.Marker([-6.906058, 107.613617], popup='<i> Limijati Women And Children Hospital</i>').add_to(m)
 folium.Marker([-6.875609, 107.595739], popup='<i> St. Laurent Catholic Church</i>').add_to(m)
 
+folium.Marker([-6.811432, 107.644959], popup='<i> Hotel Narima</i>').add_to(m)
+folium.Marker([-6.904356, 107.611774], popup='<i> Gereja Katolik Mahasiswa</i>').add_to(m)
+folium.Marker([-6.826721, 107.595434], popup='<i> Kampung Gajah Wonderland</i>').add_to(m)
+folium.Marker([-6.849249, 107.595880], popup='<i> Amazing Art World</i>').add_to(m)
+folium.Marker([-6.852839, 107.611127], popup='<i> Kebun Hidroponik Punclut</i>').add_to(m)
+folium.Marker([-6.896005, 107.655626], popup='<i> Saung Angklung Udjo </i>').add_to(m)
+folium.Marker([-6.917082, 107.764963], popup='<i> Bandung Giri Gahana Golf and Resort </i>').add_to(m)
+folium.Marker([-6.931275, 107.763968], popup='<i> Institut Pemerintaan dalam Negeri</i>').add_to(m)
+folium.Marker([-6.969376, 107.584427], popup='<i> PS Phoneshop JABAR</i>').add_to(m)
+folium.Marker([-6.944649, 107.495419], popup='<i> Cihampelas</i>').add_to(m)
+folium.Marker([-6.955716, 107.560650], popup='<i> Margaasih </i>').add_to(m)
 
-folium.Marker([-6.873467, 107.562880], popup='<i> PPPPTK Bidang Mesin dan Teknik </i>').add_to(m)
-folium.Marker([-6.887879, 107.558021], popup='<i> Pin Dipasang </i>').add_to(m)
-folium.Marker([-6.887879, 107.558021], popup='<i> NuArt Sculpture Park </i>').add_to(m)
-folium.Marker([-6.846626, 107.595658], popup='<i> Rumah Guguk Petshop </i>').add_to(m)
-folium.Marker([-6.850583, 107.597864], popup='<i> GH Universal </i>').add_to(m)
-folium.Marker([-6.854481, 107.596555], popup='<i> Masjid At Taqwa </i>').add_to(m)
-folium.Marker([-6.854066, 107.596878], popup='<i> Rumah Dinas Perhubungan Bandung </i>').add_to(m)
-folium.Marker([-6.853688, 107.598530], popup='<i> NILA NYENGIR RESTO </i>').add_to(m)
-folium.Marker([-6.854350, 107.598529], popup='<i> Warung Nasi Ogud </i>').add_to(m)
-folium.Marker([-6.854789, 107.598920], popup='<i> Baso Urat/Cincang Molin </i>').add_to(m)
-folium.Marker([-6.853231, 107.598018], popup='<i> Masjid Al Falah </i>').add_to(m)
-folium.Marker([-6.853293, 107.598334], popup='<i> Masjid Al Ikhlas </i>').add_to(m)
-folium.Marker([-6.849616, 107.597464], popup='<i> Budi Luhur Toko </i>').add_to(m)
-folium.Marker([-6.849371, 107.597728], popup='<i> Ghara Asri Hotel </i>'.add_to(m)
-folium.Marker([-6.843695, 107.597481], popup='<i> Budi Luhur Toko </i>'.add_to(m)
-            
-
-
-
-
-
-
-
-
-
+folium.Marker([-6.995691, 107.557012], popup='<i> Katapang</i>').add_to(m)
+folium.Marker([-6.869125, 107.658339], popup='<i> Warung Seblak Kustian</i>').add_to(m)
+folium.Marker([-6.858343, 107.573770], popup='<i> Olea Fruit Salad</i>').add_to(m)
+folium.Marker([-6.849143, 107.592888], popup='<i> Peakwineonline.com</i>').add_to(m)
+folium.Marker([-6.846564, 107.599281], popup='<i> Polsekta Cidadap</i>').add_to(m)
+folium.Marker([-6.820394, 107.596704], popup='<i> Lembang</i>').add_to(m)
+folium.Marker([-6.8716943,107.578043], popup='<i> Parahyangan Rumah Villa PRV</i>').add_to(m)
+folium.Marker([-6.8699048,107.582120], popup='<i> KPAD Gegerkalong</i>').add_to(m)
+folium.Marker([-6.8680407,107.584148], popup='<i> Masjid At-Taqwa KPADs</i>').add_to(m)
+folium.Marker([-6.8683336,107.582989], popup='<i> Polsek Sukasari</i>').add_to(m)
+folium.Marker([-6.8681246,107.583086], popup='<i> Warung Risa</i>').add_to(m)
+               
+folium.Marker([-6.868044,107.5830357], popup='<i> Indomaret</i>').add_to(m)
+folium.Marker([-6.8682591,107.5829626], popup='<i> Azalia Cake & Bakery</i>').add_to(m)
+folium.Marker([-6.8683556,107.5834086], popup='<i> Pecel Lele SKA</i>').add_to(m)
+folium.Marker([-6.8683237,107.583375], popup='<i> Pawitra Animation Studio</i>').add_to(m)
+folium.Marker([-6.8683862,107.584179], popup='<i> Mitra Car Wash</i>').add_to(m)
+folium.Marker([-6.8683197,107.5840905], popup='<i> Sudinar Artha Industri, Pt</i>').add_to(m)
+folium.Marker([-6.868973, 107.569125], popup='<i> Warung Seblak Kustian, Pt</i>').add_to(m)
