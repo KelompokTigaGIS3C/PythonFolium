@@ -174,3 +174,28 @@ folium.Marker([-6.878334, 107.590278], popup='<i> Orga Motor Wash</i>').add_to(m
 folium.Marker([-6.879602, 107.590045], popup='<i> RIDECORE COMPANY</i>').add_to(m)
 folium.Marker([-6.880053, 107.590011], popup='<i> Puri JPS</i>').add_to(m)
 folium.Marker([-6.880111, 107.590168], popup='<i> ZEN Rooms Cipedes Tengah</i>').add_to(m)
+
+folium.Marker([-6.866732, 107.515163], popup='<i> PT Ultra Jaya Milk Industry</i>').add_to(m)
+folium.Marker([-6.866795, 107.514119], popup='<i> Kraft Ultra Jaya Indonesia</i>').add_to(m)
+folium.Marker([-6.867954, 107.516474], popup='<i> PT. SUMBER MEKAR TEKSTIL INDONESIA</i>').add_to(m)
+folium.Marker([-6.868412, 107.518041], popup='<i> Ateja Multi Industri</i>').add_to(m)
+folium.Marker([-6.869689, 107.533422], popup='<i> Transmart - Carrefour Cimahi</i>').add_to(m)
+folium.Marker([-6.949636, 107.619582], popup='<i> PT LEN Industri(Persero)</i>').add_to(m)
+folium.Marker([-6.969417, 107.616699], popup='<i> Alena Textile Industries. PT</i>').add_to(m)
+folium.Marker([-6.970482, 107.617144], popup='<i> PT Industri Telekomunikasi Indonesia/i>').add_to(m)
+folium.Marker([-6.971182, 107.616000], popup='<i> PT. Perusahaan Industri Ceres</i>').add_to(m)
+folium.Marker([-6.970722, 107.616241], popup='<i> PT Papandayan Cocoa Industries - Barry Callebaut</i>').add_to(m)
+
+folium.Marker([-6.970981, 107.617771], popup='<i> PT Inti Global Optical Communication</i>').add_to(m)
+folium.Marker([-6.856086, 107.497845], popup='<i> PT Indofood CBP Sukses Makmur</i>').add_to(m)
+folium.Marker([-6.867954, 107.516474], popup='<i> PT. SUMBER MEKAR TEKSTIL INDONESIA</i>').add_to(m)
+folium.Marker([-6.853039, 107.496860], popup='<i> PT Combiphar</i>').add_to(m)
+folium.Marker([-6.854288, 107.498216], popup='<i> PT. Tempo Scan Pacific Tbk - Bandung 2</i>').add_to(m)
+folium.Marker([-6.857845, 107.496532], popup='<i> PT. Sugih Instrumendo Abadi</i>').add_to(m)
+folium.Marker([-6.888550, 107.497037], popup='<i> PT. Ateja Tritunggal</i>').add_to(m)
+folium.Marker([-6.887177, 107.497118], popup='<i> Gani Arta Dwitunggal. PT</i>').add_to(m)
+folium.Marker([-6.891079, 107.502072], popup='<i> PT Central Texindo</i>').add_to(m)
+folium.Marker([-6.895683, 107.503161], popup='<i> PT San Central Indah</i>').add_to(m)
+
+m
+
