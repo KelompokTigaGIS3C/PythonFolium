@@ -134,30 +134,55 @@ folium.Marker([-6.858343, 107.573770], popup='<i> Olea Fruit Salad</i>').add_to(
 folium.Marker([-6.849143, 107.592888], popup='<i> Peakwineonline.com</i>').add_to(m)
 folium.Marker([-6.846564, 107.599281], popup='<i> Polsekta Cidadap</i>').add_to(m)
 folium.Marker([-6.820394, 107.596704], popup='<i> Lembang</i>').add_to(m)
-folium.Marker([-6.8716943,107.578043], popup='<i> Parahyangan Rumah Villa PRV</i>').add_to(m)
-folium.Marker([-6.8699048,107.582120], popup='<i> KPAD Gegerkalong</i>').add_to(m)
-folium.Marker([-6.8680407,107.584148], popup='<i> Masjid At-Taqwa KPADs</i>').add_to(m)
-folium.Marker([-6.8683336,107.582989], popup='<i> Polsek Sukasari</i>').add_to(m)
-folium.Marker([-6.8681246,107.583086], popup='<i> Warung Risa</i>').add_to(m)
+folium.Marker([-6.8716943, 107.578043], popup='<i> Parahyangan Rumah Villa PRV</i>').add_to(m)
+folium.Marker([-6.8699048, 107.582120], popup='<i> KPAD Gegerkalong</i>').add_to(m)
+folium.Marker([-6.8680407, 107.584148], popup='<i> Masjid At-Taqwa KPADs</i>').add_to(m)
+folium.Marker([-6.8683336, 107.582989], popup='<i> Polsek Sukasari</i>').add_to(m)
+folium.Marker([-6.8681246, 107.583086], popup='<i> Warung Risa</i>').add_to(m)
                
-folium.Marker([-6.868044,107.5830357], popup='<i> Indomaret</i>').add_to(m)
-folium.Marker([-6.8682591,107.5829626], popup='<i> Azalia Cake & Bakery</i>').add_to(m)
-folium.Marker([-6.8683556,107.5834086], popup='<i> Pecel Lele SKA</i>').add_to(m)
-folium.Marker([-6.8683237,107.583375], popup='<i> Pawitra Animation Studio</i>').add_to(m)
-folium.Marker([-6.8683862,107.584179], popup='<i> Mitra Car Wash</i>').add_to(m)
-folium.Marker([-6.8683197,107.5840905], popup='<i> Sudinar Artha Industri, Pt</i>').add_to(m)
+folium.Marker([-6.868044, 107.5830357], popup='<i> Indomaret</i>').add_to(m)
+folium.Marker([-6.8682591, 107.5829626], popup='<i> Azalia Cake & Bakery</i>').add_to(m)
+folium.Marker([-6.8683556, 107.5834086], popup='<i> Pecel Lele SKA</i>').add_to(m)
+folium.Marker([-6.8683237, 107.583375], popup='<i> Pawitra Animation Studio</i>').add_to(m)
+folium.Marker([-6.8683862, 107.584179], popup='<i> Mitra Car Wash</i>').add_to(m)
+folium.Marker([-6.8683197, 107.5840905], popup='<i> Sudinar Artha Industri, Pt</i>').add_to(m)
 folium.Marker([-6.868973, 107.569125], popup='<i> Warung Seblak Kustian, Pt</i>').add_to(m)
+folium.Marker([-6.8683197, 107.5840905], popup='<i> TB. Jaya Abadi, Pt</i>').add_to(m)
+folium.Marker([-6.8680584,107.5821891], popup='<i> Pondok Ambu, Pt</i>').add_to(m)
+folium.Marker([-6.8681737,107.5821092], popup='<i> Kembar Juice, doPt</i>').add_to(m)
+folium.Marker([-6.8680983,107.5821319], popup='<i> Family Guest House, doPt</i>').add_to(m)
 
+folium.Marker([-6.8680837,107.5822345], popup='<i> Bartech Variasi, doPt</i>').add_to(m)
+folium.Marker([-6.8680489,107.58215], popup='<i> Toko Kurnia, doPt</i>').add_to(m)
+folium.Marker([-6.8680751,107.5821533], popup='<i> Mie Say - Mie Sayur, doPt</i>').add_to(m)
+folium.Marker([-6.8721197,107.5696538], popup='<i> Sudi Mampir, doPt</i>').add_to(m)
+folium.Marker([-6.8680837,107.5822345], popup='<i> Bartech Variasi, doPt</i>').add_to(m)
+folium.Marker([-6.8730691,107.5665503], popup='<i> PPPPTK Bidang Mesin dan Teknik Industri, doPt</i>').add_to(m)
+folium.Marker([-6.8728793,107.565649], popup='<i> Politeknik Negeri Bandung POLBAN, doPt</i>').add_to(m)
+folium.Marker([-6.8727834,107.5650803], popup='<i> Pusdiktop TNI AD, doPt</i>').add_to(m)
+folium.Marker([-6.876317,107.5670721], popup='<i> SMAN 15 Bandung, doPt</i>').add_to(m)
+folium.Marker([-6.8751674,107.5621992], popup='<i> Komplek Cimindi Raya, doPt</i>').add_to(m)
+folium.Marker([-6.8753156,107.5621705], popup='<i> Setra Duta Residence, doPt</i>').add_to(m)
 
-folium.Marker([-6.879743, 107.583369], popup='<i> Masjid Al-Murabbi </i>').add_to(m)
-folium.Marker([-6.863586, 107.589990], popup='<i> Masjid Daarut Tauhid </i>').add_to(m)
-folium.Marker([-6.863468, 107.594216], popup='<i> Masjid Al-Furqon UPI </i>').add_to(m)
-folium.Marker([-6.921740, 107.606497], popup='<i> Masjid Raya Bandung </i>').add_to(m)
-folium.Marker([-6.872891, 107.574463], popup='<i> Masjid Lukmanul Hakim </i>').add_to(m)
-folium.Marker([-6.875657, 107.575744], popup='<i> Masjid Al Falah </i>').add_to(m)
-folium.Marker([-6.869826, 107.577805], popup='<i> Masjid Miftahul Hidayah </i>').add_to(m)
-folium.Marker([-6.870813, 107.580708], popup='<i> Masjid Al - Aqsho </i>').add_to(m)
-folium.Marker([-6.868571, 107.581132], popup='<i> Masjid Baitul Haq </i>').add_to(m)
-folium.Marker([-6.893703, 107.611242], popup='<i> Masjid Salman ITB </i>').add_to(m)
+folium.Marker([-6.8736462,107.5286573], popup='<i> Taman Hutan Raya IR. H. Djuanda, doPt</i>').add_to(m)
+folium.Marker([-6.9160808,107.5489133], popup='<i> Tegalega Bandung, doPt</i>').add_to(m)
+folium.Marker([-6.9027576,107.5610781], popup='<i> Teras Cikapundung BBWS, doPt</i>').add_to(m)
+folium.Marker([-6.8973369,107.6042448], popup='<i> Little Wings, doPt</i>').add_to(m)
+folium.Marker([-6.9059004,107.6033865], popup='<i> Hotel Serena, doPt</i>').add_to(m)
+folium.Marker([-6.9022723,107.6038812], popup='<i> Pasar Baru Trade Center, doPt</i>').add_to(m)
+folium.Marker([-6.9011665,107.6018372], popup='<i> Taman Cibeunying, doPt</i>').add_to(m)
+folium.Marker([-6.8990058,107.5892017], popup='<i> Holiday Inn Bandung Pasteur, doPt</i>').add_to(m)
+folium.Marker([-6.9264659,107.6908163], popup='<i> Gelora Bandung Lautan Api, doPt</i>').add_to(m)
+folium.Marker([-6.9262955,107.7328733], popup='<i> Universitas Padjadjaran, doPt</i>').add_to(m)
+folium.Marker([-6.9354975,107.7408126], popup='<i> GT Cileunyi, doPt</i>').add_to(m)
 
 m
+
+
+
+
+
+
+
+
+
