@@ -147,3 +147,17 @@ folium.Marker([-6.8683237,107.583375], popup='<i> Pawitra Animation Studio</i>')
 folium.Marker([-6.8683862,107.584179], popup='<i> Mitra Car Wash</i>').add_to(m)
 folium.Marker([-6.8683197,107.5840905], popup='<i> Sudinar Artha Industri, Pt</i>').add_to(m)
 folium.Marker([-6.868973, 107.569125], popup='<i> Warung Seblak Kustian, Pt</i>').add_to(m)
+
+
+folium.Marker([-6.879743, 107.583369], popup='<i> Masjid Al-Murabbi </i>').add_to(m)
+folium.Marker([-6.863586, 107.589990], popup='<i> Masjid Daarut Tauhid </i>').add_to(m)
+folium.Marker([-6.863468, 107.594216], popup='<i> Masjid Al-Furqon UPI </i>').add_to(m)
+folium.Marker([-6.921740, 107.606497], popup='<i> Masjid Raya Bandung </i>').add_to(m)
+folium.Marker([-6.872891, 107.574463], popup='<i> Masjid Lukmanul Hakim </i>').add_to(m)
+folium.Marker([-6.875657, 107.575744], popup='<i> Masjid Al Falah </i>').add_to(m)
+folium.Marker([-6.869826, 107.577805], popup='<i> Masjid Miftahul Hidayah </i>').add_to(m)
+folium.Marker([-6.870813, 107.580708], popup='<i> Masjid Al - Aqsho </i>').add_to(m)
+folium.Marker([-6.868571, 107.581132], popup='<i> Masjid Baitul Haq </i>').add_to(m)
+folium.Marker([-6.893703, 107.611242], popup='<i> Masjid Salman ITB </i>').add_to(m)
+
+m
