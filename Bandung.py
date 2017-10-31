@@ -117,4 +117,28 @@ folium.Marker([-6.906058, 107.613617], popup='<i> Limijati Women And Children Ho
 folium.Marker([-6.875609, 107.595739], popup='<i> St. Laurent Catholic Church</i>').add_to(m)
 
 
-m
+folium.Marker([-6.873467, 107.562880], popup='<i> PPPPTK Bidang Mesin dan Teknik </i>').add_to(m)
+folium.Marker([-6.887879, 107.558021], popup='<i> Pin Dipasang </i>').add_to(m)
+folium.Marker([-6.887879, 107.558021], popup='<i> NuArt Sculpture Park </i>').add_to(m)
+folium.Marker([-6.846626, 107.595658], popup='<i> Rumah Guguk Petshop </i>').add_to(m)
+folium.Marker([-6.850583, 107.597864], popup='<i> GH Universal </i>').add_to(m)
+folium.Marker([-6.854481, 107.596555], popup='<i> Masjid At Taqwa </i>').add_to(m)
+folium.Marker([-6.854066, 107.596878], popup='<i> Rumah Dinas Perhubungan Bandung </i>').add_to(m)
+folium.Marker([-6.853688, 107.598530], popup='<i> NILA NYENGIR RESTO </i>').add_to(m)
+folium.Marker([-6.854350, 107.598529], popup='<i> Warung Nasi Ogud </i>').add_to(m)
+folium.Marker([-6.854789, 107.598920], popup='<i> Baso Urat/Cincang Molin </i>').add_to(m)
+folium.Marker([-6.853231, 107.598018], popup='<i> Masjid Al Falah </i>').add_to(m)
+folium.Marker([-6.853293, 107.598334], popup='<i> Masjid Al Ikhlas </i>').add_to(m)
+folium.Marker([-6.849616, 107.597464], popup='<i> Budi Luhur Toko </i>').add_to(m)
+folium.Marker([-6.849371, 107.597728], popup='<i> Ghara Asri Hotel </i>'.add_to(m)
+folium.Marker([-6.843695, 107.597481], popup='<i> Budi Luhur Toko </i>'.add_to(m)
+            
+
+
+
+
+
+
+
+
+
