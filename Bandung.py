@@ -102,7 +102,7 @@ folium.Marker([-6.872532, 107.594883], popup='<i> Three Sixty Cafe</i>').add_to(
 folium.Marker([-6.872573, 107.594901], popup='<i> Apotik Setiabudhi</i>').add_to(m) 
 folium.Marker([-6.872783, 107.594979], popup='<i> Warung Nasi Khas Sunda Laksana</i>').add_to(m) 
 folium.Marker([-6.872781, 107.595048], popup='<i> Abuba Steak</i>').add_to(m) 
-folium.Marker([-6.873015a, 107.595191], popup='<i> Amanda Setiabudi</i>').add_to(m) 
+folium.Marker([-6.873015, 107.595191], popup='<i> Amanda Setiabudi</i>').add_to(m) 
 
 folium.Marker([-6.912781, 107.664919], popup='<i> SMA Negeri 23 Bandung</i>').add_to(m)
 folium.Marker([-6.900972, 107.585742], popup='<i> SMAN 9 Bandung</i>').add_to(m)
