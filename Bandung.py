@@ -197,5 +197,28 @@ folium.Marker([-6.887177, 107.497118], popup='<i> Gani Arta Dwitunggal. PT</i>')
 folium.Marker([-6.891079, 107.502072], popup='<i> PT Central Texindo</i>').add_to(m)
 folium.Marker([-6.895683, 107.503161], popup='<i> PT San Central Indah</i>').add_to(m)
 
+folium.Marker([-6.902738, 107.620261], popup='<i> PT Pos Indonnesia(Persero)</i>').add_to(m)
+folium.Marker([-6.887305, 107.601740], popup='<i> Kantorpos Bandung Cipaganti</i>').add_to(m)
+folium.Marker([-6.894076, 107.590135], popup='<i> Kantor Pos Cipedes</i>').add_to(m)
+folium.Marker([-6.904451, 107.580766], popup='<i> Kantor Pos Bandung Husein</i>').add_to(m)
+folium.Marker([-6.920838, 107.606213], popup='<i> Kantor Pos Bandung</i>').add_to(m)
+folium.Marker([-6.909418, 107.595143], popup='<i> Kantorpos Bandung Arjuna</i>').add_to(m)
+folium.Marker([-6.907094, 107.617232], popup='<i> Kantor Pos - Banda</i>').add_to(m)
+folium.Marker([-6.906936, 107.617403], popup='<i> Kantorpos Bandung Cihapit</i>').add_to(m)
+folium.Marker([-6.906933, 107.617380], popup='<i> Graha Pos Indonesia Bandung</i>').add_to(m)
+folium.Marker([-6.904321, 107.604205], popup='<i> Kantor Pos Ujung Berung</i>').add_to(m)
+
+folium.Marker([-6.914953, 107.610653], popup='<i> Gereja Katedral Santo Petrus Bandung</i>').add_to(m)
+folium.Marker([-6.896849, 107.604726], popup='<i> Gereja Mawar Sharon Bandung</i>').add_to(m)
+folium.Marker([-6.911895, 107.610692], popup='<i> Gereja Kristen Jawa Bandung</i>').add_to(m)
+folium.Marker([-6.910259, 107.597581], popup='<i> Gereja Kristen Immanuel</i>').add_to(m)
+folium.Marker([-6.910293, 107.597516], popup='<i> GKIm Ka Im Tong</i>').add_to(m)
+folium.Marker([-6.930979, 107.598182], popup='<i> Gereja Bethel Indonesia Bethany Bandung</i>').add_to(m)
+folium.Marker([-6.929350, 107.607183], popup='<i> Gereja Katolik Santo Paulus</i>').add_to(m)
+folium.Marker([-6.926943, 107.608691], popup='<i> Kalam Kudus Pasundan Christian Church</i>').add_to(m)
+folium.Marker([-6.900821, 107.613776], popup='<i> Gereja Kristen Indonesia Maulana Yusuf</i>').add_to(m)
+folium.Marker([-6.907047, 107.626432], popup='<i> GPIB Maranatha</i>').add_to(m)
+
+
 m
 
