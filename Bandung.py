@@ -226,6 +226,16 @@ folium.Marker([-6.926943, 107.608691], popup='<i> Kalam Kudus Pasundan Christian
 folium.Marker([-6.900821, 107.613776], popup='<i> Gereja Kristen Indonesia Maulana Yusuf</i>').add_to(m)
 folium.Marker([-6.907047, 107.626432], popup='<i> GPIB Maranatha</i>').add_to(m)
 
+folium.Marker([-6.861026, 107.583457], popup='<i> Masjid Babussalam  </i>').add_to(m)
+folium.Marker([-6.862379, 107.586933], popup='<i> Masjid Nurul Falah</i>').add_to(m)
+folium.Marker([-6.859921, 107.571905], popup='<i> Masjid Al Ikhwan </i>').add_to(m)
+folium.Marker([-6.861299, 107.569228], popup='<i> Masjid Al Aniyah</i>').add_to(m)
+folium.Marker([-6.866835, 107.561462], popup='<i> Masjid Nurul Hikmah </i>').add_to(m)
+folium.Marker([-6.873112, 107.560255], popup='<i> Masjid Al-Fajri </i>').add_to(m)
+folium.Marker([-6.875357, 107.557508], popup='<i> Masjid Mutiara Hikmah </i>').add_to(m)
+folium.Marker([-6.888678, 107.574214], popup='<i> Masjid Al Mujahirin Gerbang Tol Pasteur </i>').add_to(m)
+folium.Marker([-6.877835, 107.576456], popup='<i> Masjid Jami Al Ishlah</i>').add_to(m)
+folium.Marker([-6.880924, 107.577411], popup='<i> Masjid Jami Al-Muqimin</i>').add_to(m)
 
 m
 
