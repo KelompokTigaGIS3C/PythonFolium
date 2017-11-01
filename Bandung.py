@@ -93,6 +93,12 @@ folium.Marker([-6.870240, 107.592164], popup='<i> Warung Nasi Sedan</i>').add_to
 folium.Marker([-6.870104, 107.592450], popup='<i> Ayam Goreng Kecap Acep</i>').add_to(m)
 folium.Marker([-6.870452, 107.592996], popup='<i> Nobu Ramen and sushi</i>').add_to(m)
 
+folium.Marker([-6.872020, 107.594125], popup='<i> Atok Rizal</i>').add_to(m)
+folium.Marker([-6.871971, 107.594080], popup='<i> Holland Bakery</i>').add_to(m)
+folium.Marker([-6.872029, 107.594571], popup='<i> Apotek Bona Farma</i>').add_to(m)
+folium.Marker([-6.872223, 107.594683], popup='<i> Mie Baso-Mie Kocok Campur Tetelan</i>').add_to(m)
+folium.Marker([-6.872456, 107.594825], popup='<i> Bakso Boedjangan Setiabudhi</i>').add_to(m) 
+
 folium.Marker([-6.912781, 107.664919], popup='<i> SMA Negeri 23 Bandung</i>').add_to(m)
 folium.Marker([-6.900972, 107.585742], popup='<i> SMAN 9 Bandung</i>').add_to(m)
 folium.Marker([-6.905546, 107.582892], popup='<i> SMA Angkasa</i>').add_to(m)
