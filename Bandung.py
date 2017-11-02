@@ -186,6 +186,12 @@ folium.Marker([-6.878334, 107.590278], popup='<i> Orga Motor Wash</i>').add_to(m
 folium.Marker([-6.879602, 107.590045], popup='<i> RIDECORE COMPANY</i>').add_to(m)
 folium.Marker([-6.880053, 107.590011], popup='<i> Puri JPS</i>').add_to(m)
 folium.Marker([-6.880111, 107.590168], popup='<i> ZEN Rooms Cipedes Tengah</i>').add_to(m)
+folium.Marker([-6.903862, 107.611315], popup='<i> The Luxton Hotel Bandung</i>').add_to(m)
+folium.Marker([-6.917120, 107.608284], popup='<i> Aston Braga Hotel & Residence</i>').add_to(m)
+folium.Marker([-6.902840, 107.605419], popup='<i> Hotel Sakura Bandung</i>').add_to(m)
+folium.Marker([-6.899853, 107.596132], popup='<i> ibis Bandung Pasteur</i>').add_to(m)
+folium.Marker([-6.912913, 107.597538], popup='<i> Hilton Bandung</i>').add_to(m)
+
 
 folium.Marker([-6.866732, 107.515163], popup='<i> PT Ultra Jaya Milk Industry</i>').add_to(m)
 folium.Marker([-6.866795, 107.514119], popup='<i> Kraft Ultra Jaya Indonesia</i>').add_to(m)
@@ -241,6 +247,19 @@ folium.Marker([-6.875357, 107.557508], popup='<i> Masjid Mutiara Hikmah </i>').a
 folium.Marker([-6.888678, 107.574214], popup='<i> Masjid Al Mujahirin Gerbang Tol Pasteur </i>').add_to(m)
 folium.Marker([-6.877835, 107.576456], popup='<i> Masjid Jami Al Ishlah</i>').add_to(m)
 folium.Marker([-6.880924, 107.577411], popup='<i> Masjid Jami Al-Muqimin</i>').add_to(m)
+
+folium.Marker([-6.859808, 107.594408], popup='<i> Museum Pendidikan Nasional UPI</i>').add_to(m)
+folium.Marker([-6.878243, 107.587576], popup='<i> Museum Barli</i>').add_to(m)
+folium.Marker([-6.917653, 107.611379], popup='<i> Museum Mandala Wangsit Siliwangi</i>').add_to(m)
+folium.Marker([-6.921209, 107.609536], popup='<i> Museum Konferensi Asia Afrika</i>').add_to(m)
+folium.Marker([-6.914497, 107.609287], popup='<i> Museum Bank Indonesia Jawa Barat</i>').add_to(m)
+folium.Marker([-6.926197, 107.633011], popup='<i> Museum Virajati Seskoad</i>').add_to(m)
+folium.Marker([-6.900709, 107.622797], popup='<i> Museum Perbendaharaan</i>').add_to(m)
+folium.Marker([-6.894539, 107.608242], popup='<i> Museum Zoologi</i>').add_to(m)
+folium.Marker([-6.937768, 107.603480], popup='<i> Museum Sri Baduga</i>').add_to(m)
+folium.Marker([-6.904938, 107.610579], popup='<i> Dewan Kerajinan Nasional Provinsi Jawa Barat</i>').add_to(m)
+
+
 
 m
 
