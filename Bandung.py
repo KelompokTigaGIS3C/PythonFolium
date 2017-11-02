@@ -259,7 +259,16 @@ folium.Marker([-6.894539, 107.608242], popup='<i> Museum Zoologi</i>').add_to(m)
 folium.Marker([-6.937768, 107.603480], popup='<i> Museum Sri Baduga</i>').add_to(m)
 folium.Marker([-6.904938, 107.610579], popup='<i> Dewan Kerajinan Nasional Provinsi Jawa Barat</i>').add_to(m)
 
-
+folium.Marker([-6.901455, 107.604385], popup='<i> Warunk Upnormal Cihampelas 2</i>').add_to(m)
+folium.Marker([-6.898203, 107.613418], popup='<i> Warunk Upnormal Dipatiukur</i>').add_to(m)
+folium.Marker([-6.910410, 107.625964], popup='<i> Warunk Upnormal Riau Bandung</i>').add_to(m)
+folium.Marker([-6.941915, 107.628024], popup='<i> Warunk Upnormal buah batu bandung</i>').add_to(m)
+folium.Marker([-6.924635, 107.619950], popup='<i> UPNORMAL BURANGRANG</i>').add_to(m)
+folium.Marker([-6.926318, 107.619655], popup='<i> De Fred Barber & Shop</i>').add_to(m)
+folium.Marker([-6.925109, 107.618646], popup='<i> Holako Barbershop</i>').add_to(m)
+folium.Marker([-6.934975, 107.621189], popup='<i> Barber Pop Hairmechanic </i>').add_to(m)
+folium.Marker([-6.935718, 107.621715], popup='<i> Jims Barbershop</i>').add_to(m)
+folium.Marker([-6.932676, 107.622198], popup='<i> Barber Sixx </i>').add_to(m)
 
 m
 
