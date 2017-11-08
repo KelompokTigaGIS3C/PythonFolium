@@ -8,18 +8,18 @@ def marker (long, lat):
   return m
   
 def regularpolygon (long,lat):
-  a = folium.Map(
+  r = folium.Map(
       location=[long,lat],
       zoom_start=12,
       tiles='Stamen Toner')
-  return a
+  return r
       
 def circle (long,lat):
-  p = folium.Map(
+  c = folium.Map(
       location=[long,lat],
       zoom_start=12,
       tiles='Stamen Terrain')
-  return p
+  return c
       
 m = marker (-6.917418, 107.619465)
 r = regularpolygon   (-6.917418, 107.619465)
