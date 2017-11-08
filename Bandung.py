@@ -1,10 +1,31 @@
 import folium
-m = folium.Map(
-    location=[-6.917418, 107.619465],
-    zoom_start=12,
-    tiles='Stamen Terrain'
-)
+
+def marker (long, lat):
+  m = folium.Map(
+      location=[long, lat],
+      zoom_start=12,
+      tiles='Stamen Terrain')
+  return m
+  
+def regularpolygon (long,lat):
+  a = folium.Map(
+      location=[long,lat],
+      zoom_start=12,
+      tiles='Stamen Toner')
+  return a
+      
+def circle (long,lat):
+  p = folium.Map(
+      location=[long,lat],
+      zoom_start=12,
+      tiles='Stamen Terrain')
+  return p
+      
+m = marker (-6.917418, 107.619465)
+r = regularpolygon   (-6.917418, 107.619465)
+c = circle   (-6.917418, 107.619465)
 tooltip = 'Click me!'
+
 folium.Marker([-6.871369, 107.573665], popup='<i> POLBAN</i>').add_to(m)
 folium.Marker([-6.873206, 107.575965], popup='<i> Politeknik Pos Indonesia</i>').add_to(m)
 folium.Marker([-6.878085, 107.573909], popup='<i> SMAN 15 Bandung</i>').add_to(m)
@@ -26,17 +47,6 @@ folium.Marker([-6.928475, 107.779475], popup='<i> SMA Negeri Jatinangor</i>').ad
 folium.Marker([-6.931271, 107.717319], popup='<i> Universitas Islam Negeri Sunan Gn. Djati</i>').add_to(m)
 folium.Marker([-6.903921, 107.607880], popup='<i> Universitas Islam Bandung </i>').add_to(m)
 folium.Marker([-6.905070, 107.608312], popup='<i> Universitas Pasundan Kampus 2</i>').add_to(m)
-
-folium.Marker([-6.863278, 107.579878], popup='<i> Joglo Sentir Klasikan</i>').add_to(m)
-folium.Marker([-6.858751, 107.591631], popup='<i> Asrama Mahasiswa PPG Pasca SM-3T UPI</i>').add_to(m)
-folium.Marker([-6.860728, 107.593522], popup='<i> Gedung FPBS UPI</i>').add_to(m)
-folium.Marker([-6.860542, 107.594960], popup='<i> The Heritage Kitchen & Gallery BDG</i>').add_to(m)
-folium.Marker([-6.859839, 107.594139], popup='<i> Museum Pendidikan Nasional UPI</i>').add_to(m)
-folium.Marker([-6.863264, 107.599117], popup='<i> SDN 204 CIDADAP</i>').add_to(m)
-folium.Marker([-6.861224, 107.600126], popup='<i> TravelDay Bandung</i>').add_to(m)
-folium.Marker([-6.885387, 107.580790], popup='<i> Gereja Jemaat Kristen Indonesia</i>').add_to(m)
-folium.Marker([-6.892407, 107.586461], popup='<i> Gereja Kristen Protestan Simalungun</i>').add_to(m)
-folium.Marker([-6.973988, 107.630407], popup='<i> Telkom University</i>').add_to(m)
 
 folium.Marker([-6.973314, 107.628806], popup='<i> Asrama Putri Telkom University</i>').add_to(m)
 folium.Marker([-6.971991, 107.631161], popup='<i> School of Creative Industries, Telkom University</i>').add_to(m)
@@ -115,28 +125,6 @@ folium.Marker([-6.891334, 107.603975], popup='<i> Sekolah Menengah Atas Pasundan
 folium.Marker([-6.873583, 107.616192], popup='<i> Sekolah Menengah Atas Negeri 19 Bandung</i>').add_to(m)
 folium.Marker([-6.904103, 107.622166], popup='<i> Sekolah Menengah Atas Negeri 20 Bandung</i>').add_to(m)
 
-folium.Marker([-6.907451, 107.606047], popup='<i> Kimia Farma Trading & Distribution Unit Bandung</i>').add_to(m)
-folium.Marker([-6.897701, 107.597576], popup='<i> Dr. Hasan Sadikin General Hospital</i>').add_to(m)
-folium.Marker([-6.895744, 107.598971], popup='<i> Rumah Sakit Pendidikan Universitas Padjajaran</i>').add_to(m)
-folium.Marker([-6.895748, 107.588856], popup='<i> Hermina Pasteur Hospital</i>').add_to(m)
-folium.Marker([-6.915956, 107.596484], popup='<i> Rumah Sakit Kebon Jati</i>').add_to(m)
-folium.Marker([-6.929213, 107.600677], popup='<i> Rumah Sakit Khusus Ibu dan Anak Kota Bandung</i>').add_to(m)
-folium.Marker([-6.898247, 107.615030], popup='<i> Bandung Medical Center</i>').add_to(m)
-folium.Marker([-6.906235, 107.598419], popup='<i> Rumah Sakit Melinda 2</i>').add_to(m)
-folium.Marker([-6.915239, 107.600329], popup='<i> Santosa Hospital Bandung Central</i>').add_to(m)
-folium.Marker([-6.906775, 107.603324], popup='<i> Melinda Hospital</i>').add_to(m)
-
-folium.Marker([-6.887511, 107.581079], popup='<i> Rumah Sakit Gigi & Mulut Maranatha</i>').add_to(m)
-folium.Marker([-6.885414, 107.620386], popup='<i> RS Khusus Ginjal Ny. R.A. Habbie</i>').add_to(m)
-folium.Marker([-6.887511, 107.581079], popup='<i> Rumah Sakit Gigi & Mulut Maranatha</i>').add_to(m)
-folium.Marker([-6.894148, 107.613800], popup='<i> Saint Borromeus Hospital</i>').add_to(m)
-folium.Marker([-6.933643, 107.623193], popup='<i> Muhammadiyah Hospital of Bandung</i>').add_to(m)
-folium.Marker([-6.884101, 107.594896], popup='<i> RS Jiwa Hurip Waluya</i>').add_to(m)
-folium.Marker([-6.912367, 107.573167], popup='<i> Rumah Sakit Rajawali</i>').add_to(m)
-folium.Marker([-6.884286, 107.552698], popup='<i> RS Mitra Kasih</i>').add_to(m)
-folium.Marker([-6.879120, 107.550891], popup='<i> Cibabat Hospital</i>').add_to(m)
-folium.Marker([-6.906058, 107.613617], popup='<i> Limijati Women And Children Hospital</i>').add_to(m)
-
 folium.Marker([-6.875609, 107.595739], popup='<i> St. Laurent Catholic Church</i>').add_to(m)
 folium.Marker([-6.811432, 107.644959], popup='<i> Hotel Narima</i>').add_to(m)
 folium.Marker([-6.904356, 107.611774], popup='<i> Gereja Katolik Mahasiswa</i>').add_to(m)
@@ -192,6 +180,62 @@ folium.Marker([-6.902840, 107.605419], popup='<i> Hotel Sakura Bandung</i>').add
 folium.Marker([-6.899853, 107.596132], popup='<i> ibis Bandung Pasteur</i>').add_to(m)
 folium.Marker([-6.912913, 107.597538], popup='<i> Hilton Bandung</i>').add_to(m)
 
+folium.Marker([-6.861026, 107.583457], popup='<i> Masjid Babussalam  </i>').add_to(m)
+folium.Marker([-6.862379, 107.586933], popup='<i> Masjid Nurul Falah</i>').add_to(m)
+folium.Marker([-6.859921, 107.571905], popup='<i> Masjid Al Ikhwan </i>').add_to(m)
+folium.Marker([-6.861299, 107.569228], popup='<i> Masjid Al Aniyah</i>').add_to(m)
+folium.Marker([-6.866835, 107.561462], popup='<i> Masjid Nurul Hikmah </i>').add_to(m)
+folium.Marker([-6.873112, 107.560255], popup='<i> Masjid Al-Fajri </i>').add_to(m)
+folium.Marker([-6.875357, 107.557508], popup='<i> Masjid Mutiara Hikmah </i>').add_to(m)
+folium.Marker([-6.888678, 107.574214], popup='<i> Masjid Al Mujahirin Gerbang Tol Pasteur </i>').add_to(m)
+folium.Marker([-6.877835, 107.576456], popup='<i> Masjid Jami Al Ishlah</i>').add_to(m)
+folium.Marker([-6.880924, 107.577411], popup='<i> Masjid Jami Al-Muqimin</i>').add_to(m)
+
+folium.Marker([-6.901455, 107.604385], popup='<i> Warunk Upnormal Cihampelas 2</i>').add_to(m)
+folium.Marker([-6.898203, 107.613418], popup='<i> Warunk Upnormal Dipatiukur</i>').add_to(m)
+folium.Marker([-6.910410, 107.625964], popup='<i> Warunk Upnormal Riau Bandung</i>').add_to(m)
+folium.Marker([-6.941915, 107.628024], popup='<i> Warunk Upnormal buah batu bandung</i>').add_to(m)
+folium.Marker([-6.924635, 107.619950], popup='<i> UPNORMAL BURANGRANG</i>').add_to(m)
+folium.Marker([-6.926318, 107.619655], popup='<i> De Fred Barber & Shop</i>').add_to(m)
+folium.Marker([-6.925109, 107.618646], popup='<i> Holako Barbershop</i>').add_to(m)
+folium.Marker([-6.934975, 107.621189], popup='<i> Barber Pop Hairmechanic </i>').add_to(m)
+folium.Marker([-6.935718, 107.621715], popup='<i> Jims Barbershop</i>').add_to(m)
+folium.Marker([-6.932676, 107.622198], popup='<i> Barber Sixx </i>').add_to(m)
+
+
+
+folium.Marker([-6.863278, 107.579878], popup='<i> Joglo Sentir Klasikan</i>').add_to(m)
+folium.Marker([-6.858751, 107.591631], popup='<i> Asrama Mahasiswa PPG Pasca SM-3T UPI</i>').add_to(m)
+folium.Marker([-6.860728, 107.593522], popup='<i> Gedung FPBS UPI</i>').add_to(m)
+folium.Marker([-6.860542, 107.594960], popup='<i> The Heritage Kitchen & Gallery BDG</i>').add_to(m)
+folium.Marker([-6.859839, 107.594139], popup='<i> Museum Pendidikan Nasional UPI</i>').add_to(m)
+folium.Marker([-6.863264, 107.599117], popup='<i> SDN 204 CIDADAP</i>').add_to(m)
+folium.Marker([-6.861224, 107.600126], popup='<i> TravelDay Bandung</i>').add_to(m)
+folium.Marker([-6.885387, 107.580790], popup='<i> Gereja Jemaat Kristen Indonesia</i>').add_to(m)
+folium.Marker([-6.892407, 107.586461], popup='<i> Gereja Kristen Protestan Simalungun</i>').add_to(m)
+folium.Marker([-6.973988, 107.630407], popup='<i> Telkom University</i>').add_to(m)
+
+folium.Marker([-6.907451, 107.606047], popup='<i> Kimia Farma Trading & Distribution Unit Bandung</i>').add_to(m)
+folium.Marker([-6.897701, 107.597576], popup='<i> Dr. Hasan Sadikin General Hospital</i>').add_to(m)
+folium.Marker([-6.895744, 107.598971], popup='<i> Rumah Sakit Pendidikan Universitas Padjajaran</i>').add_to(m)
+folium.Marker([-6.895748, 107.588856], popup='<i> Hermina Pasteur Hospital</i>').add_to(m)
+folium.Marker([-6.915956, 107.596484], popup='<i> Rumah Sakit Kebon Jati</i>').add_to(m)
+folium.Marker([-6.929213, 107.600677], popup='<i> Rumah Sakit Khusus Ibu dan Anak Kota Bandung</i>').add_to(m)
+folium.Marker([-6.898247, 107.615030], popup='<i> Bandung Medical Center</i>').add_to(m)
+folium.Marker([-6.906235, 107.598419], popup='<i> Rumah Sakit Melinda 2</i>').add_to(m)
+folium.Marker([-6.915239, 107.600329], popup='<i> Santosa Hospital Bandung Central</i>').add_to(m)
+folium.Marker([-6.906775, 107.603324], popup='<i> Melinda Hospital</i>').add_to(m)
+
+folium.Marker([-6.887511, 107.581079], popup='<i> Rumah Sakit Gigi & Mulut Maranatha</i>').add_to(m)
+folium.Marker([-6.885414, 107.620386], popup='<i> RS Khusus Ginjal Ny. R.A. Habbie</i>').add_to(m)
+folium.Marker([-6.887511, 107.581079], popup='<i> Rumah Sakit Gigi & Mulut Maranatha</i>').add_to(m)
+folium.Marker([-6.894148, 107.613800], popup='<i> Saint Borromeus Hospital</i>').add_to(m)
+folium.Marker([-6.933643, 107.623193], popup='<i> Muhammadiyah Hospital of Bandung</i>').add_to(m)
+folium.Marker([-6.884101, 107.594896], popup='<i> RS Jiwa Hurip Waluya</i>').add_to(m)
+folium.Marker([-6.912367, 107.573167], popup='<i> Rumah Sakit Rajawali</i>').add_to(m)
+folium.Marker([-6.884286, 107.552698], popup='<i> RS Mitra Kasih</i>').add_to(m)
+folium.Marker([-6.879120, 107.550891], popup='<i> Cibabat Hospital</i>').add_to(m)
+folium.Marker([-6.906058, 107.613617], popup='<i> Limijati Women And Children Hospital</i>').add_to(m)
 
 folium.Marker([-6.866732, 107.515163], popup='<i> PT Ultra Jaya Milk Industry</i>').add_to(m)
 folium.Marker([-6.866795, 107.514119], popup='<i> Kraft Ultra Jaya Indonesia</i>').add_to(m)
@@ -204,27 +248,16 @@ folium.Marker([-6.970482, 107.617144], popup='<i> PT Industri Telekomunikasi Ind
 folium.Marker([-6.971182, 107.616000], popup='<i> PT. Perusahaan Industri Ceres</i>').add_to(m)
 folium.Marker([-6.970722, 107.616241], popup='<i> PT Papandayan Cocoa Industries - Barry Callebaut</i>').add_to(m)
 
-folium.Marker([-6.970981, 107.617771], popup='<i> PT Inti Global Optical Communication</i>').add_to(m)
-folium.Marker([-6.856086, 107.497845], popup='<i> PT Indofood CBP Sukses Makmur</i>').add_to(m)
-folium.Marker([-6.867954, 107.516474], popup='<i> PT. SUMBER MEKAR TEKSTIL INDONESIA</i>').add_to(m)
-folium.Marker([-6.853039, 107.496860], popup='<i> PT Combiphar</i>').add_to(m)
-folium.Marker([-6.854288, 107.498216], popup='<i> PT. Tempo Scan Pacific Tbk - Bandung 2</i>').add_to(m)
-folium.Marker([-6.857845, 107.496532], popup='<i> PT. Sugih Instrumendo Abadi</i>').add_to(m)
-folium.Marker([-6.888550, 107.497037], popup='<i> PT. Ateja Tritunggal</i>').add_to(m)
-folium.Marker([-6.887177, 107.497118], popup='<i> Gani Arta Dwitunggal. PT</i>').add_to(m)
-folium.Marker([-6.891079, 107.502072], popup='<i> PT Central Texindo</i>').add_to(m)
-folium.Marker([-6.895683, 107.503161], popup='<i> PT San Central Indah</i>').add_to(m)
-
-folium.Marker([-6.902738, 107.620261], popup='<i> PT Pos Indonnesia(Persero)</i>').add_to(m)
-folium.Marker([-6.887305, 107.601740], popup='<i> Kantorpos Bandung Cipaganti</i>').add_to(m)
-folium.Marker([-6.894076, 107.590135], popup='<i> Kantor Pos Cipedes</i>').add_to(m)
-folium.Marker([-6.904451, 107.580766], popup='<i> Kantor Pos Bandung Husein</i>').add_to(m)
-folium.Marker([-6.920838, 107.606213], popup='<i> Kantor Pos Bandung</i>').add_to(m)
-folium.Marker([-6.909418, 107.595143], popup='<i> Kantorpos Bandung Arjuna</i>').add_to(m)
-folium.Marker([-6.907094, 107.617232], popup='<i> Kantor Pos - Banda</i>').add_to(m)
-folium.Marker([-6.906936, 107.617403], popup='<i> Kantorpos Bandung Cihapit</i>').add_to(m)
-folium.Marker([-6.906933, 107.617380], popup='<i> Graha Pos Indonesia Bandung</i>').add_to(m)
-folium.Marker([-6.904321, 107.604205], popup='<i> Kantor Pos Ujung Berung</i>').add_to(m)
+folium.Marker([-6.859808, 107.594408], popup='<i> Museum Pendidikan Nasional UPI</i>').add_to(m)
+folium.Marker([-6.878243, 107.587576], popup='<i> Museum Barli</i>').add_to(m)
+folium.Marker([-6.917653, 107.611379], popup='<i> Museum Mandala Wangsit Siliwangi</i>').add_to(m)
+folium.Marker([-6.921209, 107.609536], popup='<i> Museum Konferensi Asia Afrika</i>').add_to(m)
+folium.Marker([-6.914497, 107.609287], popup='<i> Museum Bank Indonesia Jawa Barat</i>').add_to(m)
+folium.Marker([-6.926197, 107.633011], popup='<i> Museum Virajati Seskoad</i>').add_to(m)
+folium.Marker([-6.900709, 107.622797], popup='<i> Museum Perbendaharaan</i>').add_to(m)
+folium.Marker([-6.894539, 107.608242], popup='<i> Museum Zoologi</i>').add_to(m)
+folium.Marker([-6.937768, 107.603480], popup='<i> Museum Sri Baduga</i>').add_to(m)
+folium.Marker([-6.904938, 107.610579], popup='<i> Dewan Kerajinan Nasional Provinsi Jawa Barat</i>').add_to(m)
 
 folium.Marker([-6.914953, 107.610653], popup='<i> Gereja Katedral Santo Petrus Bandung</i>').add_to(m)
 folium.Marker([-6.896849, 107.604726], popup='<i> Gereja Mawar Sharon Bandung</i>').add_to(m)
@@ -237,38 +270,130 @@ folium.Marker([-6.926943, 107.608691], popup='<i> Kalam Kudus Pasundan Christian
 folium.Marker([-6.900821, 107.613776], popup='<i> Gereja Kristen Indonesia Maulana Yusuf</i>').add_to(m)
 folium.Marker([-6.907047, 107.626432], popup='<i> GPIB Maranatha</i>').add_to(m)
 
-folium.Marker([-6.861026, 107.583457], popup='<i> Masjid Babussalam  </i>').add_to(m)
-folium.Marker([-6.862379, 107.586933], popup='<i> Masjid Nurul Falah</i>').add_to(m)
-folium.Marker([-6.859921, 107.571905], popup='<i> Masjid Al Ikhwan </i>').add_to(m)
-folium.Marker([-6.861299, 107.569228], popup='<i> Masjid Al Aniyah</i>').add_to(m)
-folium.Marker([-6.866835, 107.561462], popup='<i> Masjid Nurul Hikmah </i>').add_to(m)
-folium.Marker([-6.873112, 107.560255], popup='<i> Masjid Al-Fajri </i>').add_to(m)
-folium.Marker([-6.875357, 107.557508], popup='<i> Masjid Mutiara Hikmah </i>').add_to(m)
-folium.Marker([-6.888678, 107.574214], popup='<i> Masjid Al Mujahirin Gerbang Tol Pasteur </i>').add_to(m)
-folium.Marker([-6.877835, 107.576456], popup='<i> Masjid Jami Al Ishlah</i>').add_to(m)
-folium.Marker([-6.880924, 107.577411], popup='<i> Masjid Jami Al-Muqimin</i>').add_to(m)
 
-folium.Marker([-6.859808, 107.594408], popup='<i> Museum Pendidikan Nasional UPI</i>').add_to(m)
-folium.Marker([-6.878243, 107.587576], popup='<i> Museum Barli</i>').add_to(m)
-folium.Marker([-6.917653, 107.611379], popup='<i> Museum Mandala Wangsit Siliwangi</i>').add_to(m)
-folium.Marker([-6.921209, 107.609536], popup='<i> Museum Konferensi Asia Afrika</i>').add_to(m)
-folium.Marker([-6.914497, 107.609287], popup='<i> Museum Bank Indonesia Jawa Barat</i>').add_to(m)
-folium.Marker([-6.926197, 107.633011], popup='<i> Museum Virajati Seskoad</i>').add_to(m)
-folium.Marker([-6.900709, 107.622797], popup='<i> Museum Perbendaharaan</i>').add_to(m)
-folium.Marker([-6.894539, 107.608242], popup='<i> Museum Zoologi</i>').add_to(m)
-folium.Marker([-6.937768, 107.603480], popup='<i> Museum Sri Baduga</i>').add_to(m)
-folium.Marker([-6.904938, 107.610579], popup='<i> Dewan Kerajinan Nasional Provinsi Jawa Barat</i>').add_to(m)
+folium.Marker(
+    location=[-6.970981, 107.617771],
+    popup='PT Inti Global Optical Communication',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
 
-folium.Marker([-6.901455, 107.604385], popup='<i> Warunk Upnormal Cihampelas 2</i>').add_to(m)
-folium.Marker([-6.898203, 107.613418], popup='<i> Warunk Upnormal Dipatiukur</i>').add_to(m)
-folium.Marker([-6.910410, 107.625964], popup='<i> Warunk Upnormal Riau Bandung</i>').add_to(m)
-folium.Marker([-6.941915, 107.628024], popup='<i> Warunk Upnormal buah batu bandung</i>').add_to(m)
-folium.Marker([-6.924635, 107.619950], popup='<i> UPNORMAL BURANGRANG</i>').add_to(m)
-folium.Marker([-6.926318, 107.619655], popup='<i> De Fred Barber & Shop</i>').add_to(m)
-folium.Marker([-6.925109, 107.618646], popup='<i> Holako Barbershop</i>').add_to(m)
-folium.Marker([-6.934975, 107.621189], popup='<i> Barber Pop Hairmechanic </i>').add_to(m)
-folium.Marker([-6.935718, 107.621715], popup='<i> Jims Barbershop</i>').add_to(m)
-folium.Marker([-6.932676, 107.622198], popup='<i> Barber Sixx </i>').add_to(m)
+folium.Marker(
+    location=[-6.856086, 107.497845],
+    popup='PT Indofood CBP Sukses Makmur',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.867954, 107.516474],
+    popup='PT. SUMBER MEKAR TEKSTIL INDONESIA',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.853039, 107.496860],
+    popup='PT Combiphar',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.854288, 107.498216],
+    popup='PT. Tempo Scan Pacific Tbk - Bandung 2',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.857845, 107.496532],
+    popup='PT. Sugih Instrumendo Abadi',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.888550, 107.497037],
+    popup='PT. Ateja Tritunggal',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.887177, 107.497118],
+    popup='Gani Arta Dwitunggal. PT',
+    icon=folium.Icon(icon='cloud')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.891079, 107.502072],
+    popup='PT Central Texindo',
+    icon=folium.Icon(color='red', icon='cloud')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.895683, 107.503161],
+    popup='PT San Central Indah',
+    icon=folium.Icon(color='red', icon='cloud')
+).add_to(m)
+
+
+
+
+folium.Marker(
+    location=[-6.902738, 107.620261],
+    popup='PT Pos Indonnesia(Persero)',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.887305, 107.601740],
+    popup='Kantorpos Bandung Cipaganti',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.894076, 107.590135],
+    popup='Kantor Pos Cipedes',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.904451, 107.580766],
+    popup='Kantor Pos Bandung Husein',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.920838, 107.606213],
+    popup='Kantor Pos Bandung',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.909418, 107.595143],
+    popup='Kantorpos Bandung Arjuna',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.907094, 107.617232],
+    popup='Kantor Pos - Banda',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.906936, 107.617403],
+    popup='Kantorpos Bandung Cihapit',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.906933, 107.617380],
+    popup='Graha Pos Indonesia Bandung',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
+folium.Marker(
+    location=[-6.904321, 107.604205],
+    popup='Kantor Pos Ujung Berung',
+    icon=folium.Icon(color='orange')
+).add_to(m)
+
 
 m
 
