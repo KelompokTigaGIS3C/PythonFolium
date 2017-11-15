@@ -11,7 +11,7 @@ def regularpolygon (long,lat):
   r = folium.Map(
       location=[long,lat],
       zoom_start=12,
-      tiles='Stamen Toner')
+      tiles='Stamen Terrain')
   return r
       
 def circle (long,lat):
@@ -21,6 +21,9 @@ def circle (long,lat):
       tiles='Stamen Terrain')
   return c
       
+def save(simpan, dulu):
+    simpan.save(dulu)
+
 m = marker (-6.917418, 107.619465)
 r = regularpolygon   (-6.917418, 107.619465)
 c = circle   (-6.917418, 107.619465)
@@ -215,17 +218,85 @@ folium.Marker([-6.885387, 107.580790], popup='<i> Gereja Jemaat Kristen Indonesi
 folium.Marker([-6.892407, 107.586461], popup='<i> Gereja Kristen Protestan Simalungun</i>').add_to(m)
 folium.Marker([-6.973988, 107.630407], popup='<i> Telkom University</i>').add_to(m)
 
-folium.Marker([-6.907451, 107.606047], popup='<i> Kimia Farma Trading & Distribution Unit Bandung</i>').add_to(m)
-folium.Marker([-6.897701, 107.597576], popup='<i> Dr. Hasan Sadikin General Hospital</i>').add_to(m)
-folium.Marker([-6.895744, 107.598971], popup='<i> Rumah Sakit Pendidikan Universitas Padjajaran</i>').add_to(m)
-folium.Marker([-6.895748, 107.588856], popup='<i> Hermina Pasteur Hospital</i>').add_to(m)
-folium.Marker([-6.915956, 107.596484], popup='<i> Rumah Sakit Kebon Jati</i>').add_to(m)
-folium.Marker([-6.929213, 107.600677], popup='<i> Rumah Sakit Khusus Ibu dan Anak Kota Bandung</i>').add_to(m)
-folium.Marker([-6.898247, 107.615030], popup='<i> Bandung Medical Center</i>').add_to(m)
-folium.Marker([-6.906235, 107.598419], popup='<i> Rumah Sakit Melinda 2</i>').add_to(m)
-folium.Marker([-6.915239, 107.600329], popup='<i> Santosa Hospital Bandung Central</i>').add_to(m)
-folium.Marker([-6.906775, 107.603324], popup='<i> Melinda Hospital</i>').add_to(m)
+folium.Circle(
+    radius=100,
+    location=[-6.907451, 107.606047],
+    popup='Kimia Farma Trading & Distribution Unit Bandung',
+    color='red',
+    fill=False
+).add_to(c)
 
+folium.Circle(
+    radius=100,
+    location=[-6.897701, 107.597576],
+    popup='Dr. Hasan Sadikin General Hospital',
+    color='red',
+    fill=False
+).add_to(c)
+
+folium.Circle(
+    radius=100,
+    location=[-6.895744, 107.598971],
+    popup='Rumah Sakit Pendidikan Universitas Padjajaran',
+    color='red',
+    fill=False
+).add_to(c)
+
+folium.Circle(
+    radius=100,
+    location=[-6.895748, 107.588856],
+    popup='Hermina Pasteur Hospital',
+    color='red',
+    fill=False
+).add_to(c)
+
+folium.Circle(
+    radius=100,
+    location=[-6.915956, 107.596484],
+    popup='Rumah Sakit Kebon Jati',
+    color='red',
+    fill=False
+).add_to(c)
+
+c
+
+folium.RegularPolygonMarker(
+    [-6.929213, 107.600677],
+    popup='Rumah Sakit Khusus Ibu dan Anak Kota Bandung',
+    fill_color='#769d96',
+    number_of_sides=7,
+    radius=10
+).add_to(r)
+
+
+
+folium.RegularPolygonMarker(
+    [-6.906235, 107.598419],
+    popup='Rumah Sakit Melinda 2',
+    fill_color='#132b5e',
+    number_of_sides=3,
+    radius=10
+).add_to(r)
+
+folium.RegularPolygonMarker(
+    [-6.915239, 107.600329],
+    popup='Santosa Hospital Bandung Central',
+    fill_color='#45647d',
+    number_of_sides=8,
+    radius=10
+).add_to(r)
+
+folium.RegularPolygonMarker(
+    [-6.906775, 107.603324],
+    popup='Melinda Hospital',
+    fill_color='#132b5e',
+    number_of_sides=3,
+    radius=10
+).add_to(r)
+
+r
+
+folium.Marker([-6.898247, 107.615030], popup='<i> Bandung Medical Center</i>').add_to(m)
 folium.Marker([-6.887511, 107.581079], popup='<i> Rumah Sakit Gigi & Mulut Maranatha</i>').add_to(m)
 folium.Marker([-6.885414, 107.620386], popup='<i> RS Khusus Ginjal Ny. R.A. Habbie</i>').add_to(m)
 folium.Marker([-6.887511, 107.581079], popup='<i> Rumah Sakit Gigi & Mulut Maranatha</i>').add_to(m)
@@ -396,4 +467,8 @@ folium.Marker(
 
 
 m
+
+save(m, '1.html')
+save(r, '2.html')
+save(c, '3.html')
 
